@@ -1,14 +1,12 @@
 import React from 'react'
 import Layout from './layout'
 
-import Hero from './components/hero'
-
 function App() {
   return (
     <>
-      <div className="theme-light flex flex-col">
+      {/* overflow-y-auto para fixar o header*/}
+      <div className="theme-light h-screen ">
         <Layout />
-        <Hero />
       </div>
     </>
   )

@@ -8,8 +8,7 @@ import useInView from 'use-in-view'
 
 const StyledDiv = tw.div`font-display
 min-h-screen
-text-secondary-500
-p-8
+
  overflow-hidden`
 function AnimationReveal({ disabled, children }) {
   if (disabled) {
@@ -35,7 +34,7 @@ function AnimationReveal({ disabled, children }) {
 function AnimatedSlideInComponent({
   direction = 'left',
   offset = 30,
-  children
+  children,
 }) {
   const [ref, inView] = useInView(30)
 
@@ -50,8 +49,8 @@ function AnimatedSlideInComponent({
       animate={{
         x: inView && x.target,
         transitionEnd: {
-          x: inView && 0
-        }
+          x: inView && 0,
+        },
       }}
       transition={{ type: 'spring', damping: 100 }}
       ref={ref}

@@ -12,24 +12,27 @@ import {
   PrimaryAction,
 } from './styles'
 
-const MenuBar = () => {
+const Hero = () => {
   return (
     <Container>
       <HeroContainer>
         <TwoColumn>
-          <LeftColumn>
+          <LeftColumn className="pt-40">
             <Notification>Gerenciamento de</Notification>
+
             <Heading>
               <SlantedBackground>Redes Sociais</SlantedBackground>
               <br />
-              <span className="text-amarelo">
+              <span className="text-blue-500 p-2 shadow-text-logo bg-blue-500 bg-opacity-25">
                 Você mais próximo do seu cliente!
               </span>
             </Heading>
 
             <PrimaryAction>
-              Assista o vídeo
-              <FiPlayCircle className="w-12 h-12  " />
+              <div className="flex flex-row items-center">
+                <FiPlayCircle className="w-12 h-12 pt-1  " />
+                <span className="text-2xl">Assista o vídeo</span>
+              </div>
             </PrimaryAction>
           </LeftColumn>
           <RightColumn>
@@ -41,4 +44,4 @@ const MenuBar = () => {
   )
 }
 
-export default MenuBar
+export default Hero

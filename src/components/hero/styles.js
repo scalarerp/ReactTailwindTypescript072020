@@ -1,13 +1,16 @@
 import tw from 'twin.macro'
 import styled from 'styled-components'
 // import { motion } from 'framer-motion'
+import Azul from '../../assets/images/11.png'
 
 export const Container = styled.div`
-  ${tw`relative -mx-8 -mt-8 bg-center bg-cover`}
-  background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
+  ${tw`relative bg-center bg-cover`}
+  background-image: url(${Azul});
 `
+// background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
+
 export const HeroContainer = tw.div`
-relative px-4 mt-48 z-5 pb-40
+relative px-4  z-5 pb-40
 sm:px-8 max-w-screen-xl mx-auto`
 
 export const TwoColumn = tw.div`
@@ -32,7 +35,7 @@ export const Heading = styled.h1`
   }
 `
 export const SlantedBackground = styled.span`
-  ${tw`relative text-primary-500 px-4 -mx-4 py-2`}
+  ${tw`relative text-gray-900 px-4 -mx-4 py-2`}
   &::before {
     content: '';
     ${tw`absolute inset-0 bg-gray-100 transform -skew-x-12 -z-2`}

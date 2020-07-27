@@ -41,10 +41,14 @@ const Header = ({ collapseBreakpointClass = 'lg' }) => {
           >
             <LinksCol />
           </MobileNavLinks>
-          <div onClick={toggleNavbar} className="fixed right-0 z-50 w-20 h-20">
-            <BurgerMenuToogle show={showNavLinks} />
-          </div>
         </MobileNavLinksContainer>
+        <div
+          onClick={toggleNavbar}
+          className="right-0 z-20"
+          css={collapseBreakpointCss.mobileNavLinksContainer}
+        >
+          <BurgerMenuToogle show={showNavLinks} />
+        </div>
       </Container>
     </>
   )
