@@ -1,0 +1,109 @@
+html {
+  line-height: 1.15;
+}
+
+body {
+  @apply .text-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+a {
+  @apply text-link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1461ff;
+}
+
+.transition {
+  transition: all 0.1s ease-in;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.blur {
+  filter: blur(4px);
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: var(--theme-border-secondary);
+  height: 1px;
+}
+
+.mt-2px {
+  margin-top: 2px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  line-height: 1.15;
+}
+
+/* Remove blue outline on chrome - This is bad for accessability */
+a:focus,
+button:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.page-section {
+  @apply .bg-theme-content-background;
+  /* .shadow-theme; */
+}
+
+@screen xl {
+  .page-section {
+    @apply .rounded-lg;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #d3d3d3;
+  /* border: 2px solid #1e90f5; */
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #7ebcf3;
+  /* border-radius: 10px; */
+}
+
+/* Below animations are fore modal created using React-Modal */
+.ReactModal__Overlay {
+  transition: transform 300ms ease-in-out;
+  transition-delay: 100ms;
+  transform: scale(0);
+  /* transform: translateY(-150%); */
+}
+
+.ReactModal__Overlay--after-open {
+  transform: scale(1);
+  /* transform: translateY(0%); */
+}
+
+.ReactModal__Overlay--before-close {
+  transform: scale(0);
+  /* transform: translateY(-150%); */
+}
+
+.shadow-text-logo {
+  text-shadow: #0b385f 1px 1px 0;
+}

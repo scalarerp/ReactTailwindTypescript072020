@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg 
+width="29.633mm" height="29.633mm" 
+clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 2963.32 2963.32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+   <circle fill="#FEFEFE" cx="1480.8" cy="1482.4" r="1284"/>
+   <g transform="matrix(2.6701e-14 -1 1 2.6701e-14 -446.93 3766.2)">
+    <text fill="#0F62AC"     
+style="font-weight:extra-bold;font-size:235px;font-style:normal;font-family:arial;fill:#0F62AC;"
+    x="1481.66" y="1481.66">Marketing</text>
+   </g>
+    <path fill="#0F62AC" d="m1162.3 2255.5h418.8c180.61 0 322.3-74.2 425.06-222.59 102.75-148.37 154.17-333.18 154.17-554.45 0-175.93-29.44-321.49-88.23-436.66-58.81-115.15-125.39-199.36-199.62-252.61-74.22-53.22-187.13-79.83-338.58-79.83h-371.6v1546.1z"/>
+    <path fill="#FEFEFE" d="m1562.5 993.67c59.93 0 111.23 16.04 153.95 48.14 42.7 32.1 78.48 87.97 107.23 167.63 28.79 79.68 43.21 166.34 43.21 259.99 0 132.9-25.25 248.62-75.68 347.16-50.43 98.56-127.56 147.8-231.39 147.8h-117.47v-970.72h120.15z"/>
+    <polygon fill="#FEFEFE" points="1869.4 1137.7 2133.1 690.13 1970.3 452.07 1765.4 908.2"/>
+    <polygon fill="#F68E34" points="1872.8 1074.7 2098.7 691.27 1975.6 511.3 1797.3 908.18"/>
+</svg>
