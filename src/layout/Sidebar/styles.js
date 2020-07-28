@@ -31,7 +31,7 @@ export const SearchInput = styled.input`
   &::placeholder {
     color: var(--gray);
   }
-  ~ svg {
+  svg {
     position: relative;
     top: -33px;
     left: 15px;
