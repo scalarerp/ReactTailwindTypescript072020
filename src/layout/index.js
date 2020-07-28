@@ -13,7 +13,9 @@ const Layout = (props) => {
         <Header />
         <AnimationRevealPage>
           <Hero />
+
           <Content1 />
+
           <Content2 />
         </AnimationRevealPage>
       </Container>

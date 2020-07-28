@@ -107,3 +107,7 @@ input:focus {
 .shadow-text-logo {
   text-shadow: #0b385f 1px 1px 0;
 }
+
+.iconW12RoudedFull {
+  @apply .w-12 .h-12 .p-1 .text-white .rounded-full
+}

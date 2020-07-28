@@ -28,7 +28,7 @@ const Hero = () => {
               </span>
             </Heading>
 
-            <PrimaryAction>
+            <PrimaryAction className="rounded-full">
               <div className="flex flex-row items-center">
                 <FiPlayCircle className="w-12 h-12 pt-1  " />
                 <span className="text-2xl">Assista o vídeo</span>

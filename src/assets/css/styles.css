@@ -726,6 +726,16 @@ input:focus {
   text-shadow: #0b385f 1px 1px 0;
 }
 
+.iconW12RoudedFull {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.25rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  border-radius: 9999px
+}
+
 .theme-light {
   --color-theme-text-thead: #c5c7cb;
   --color-theme-table-row-sticky: #fff;
