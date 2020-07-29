@@ -10,6 +10,8 @@ export default function useHideInScrolled() {
   const windowOnscroll = () => {
     // console.log(window.pageYOffset)
     setCurrentScrollpos(window.pageYOffset)
+    // console.log(window.pageYOffset)
+
     if (prevScrollpos > currentScrollpos) {
       setTopPosition('0px')
       // setMarginTop('200px')

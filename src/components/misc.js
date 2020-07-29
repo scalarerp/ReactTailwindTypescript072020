@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import styled from 'styled-components'
 import { css } from 'styled-components/macro' //eslint-disable-line
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 
 export const Container = tw.div`relative`
 export const ContentWithPaddingXl = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`
@@ -19,8 +19,8 @@ export const SectionHeading = tw.h2`text-4xl sm:text-5xl font-black tracking-wid
 export const SectionDescription = tw.p`mt-4 text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 max-w-xl`
 export const Subheading = tw.h5`font-bold text-primary-500 text-center md:text-left`
 // export const Subheading = tw(SubheadingBase)`text-center md:text-left`
-export const Title = tw.h4`text-xl font-bold pt-2 pb-5 `
-export const TextContent = tw.div`lg:py-8 text-center md:text-left`
+export const Title = tw.h4`text-2xl text-gray-700 font-bold pl-10 pt-2 pb-5 `
+export const TextContent = tw.div`lg:py-8 text-center  md:text-left`
 export const Heading = tw(SectionHeading)`
 mt-4 font-black text-left text-3xl 
 sm:text-4xl 
@@ -39,6 +39,7 @@ export const ImageDivBackground64 = styled.div((props) => [
   `background-image: url("${props.imageSrc}");`,
   tw`h-64 w-full bg-contain bg-no-repeat bg-center rounded-t-lg `,
 ])
+
 // export const DecoratorBlob = styled(SvgDotPattern)((props) => [
 //   tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-500 -z-10`,
 // ])

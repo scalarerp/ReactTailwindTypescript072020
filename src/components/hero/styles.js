@@ -1,12 +1,16 @@
 import tw from 'twin.macro'
 import styled from 'styled-components'
 // import { motion } from 'framer-motion'
-import Azul from '../../assets/images/11.png'
+// import Azul from '../../assets/images/11.png'
 
 export const Container = styled.div`
-  ${tw`relative bg-center bg-cover`}
-  background-image: url(${Azul});
+  ${tw`relative bg-center bg-cover -z-2`}
 `
+// background-image: url(${Azul});
+// background-repeat: no-repeat;
+// background-attachment: fixed;
+
+//
 // background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
 
 export const HeroContainer = tw.div`

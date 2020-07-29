@@ -21,11 +21,10 @@ const LogoLink = styled(NavLink)`
 
 const LinksNav = () => (
   <>
-    <NavLink href="/#">Serviços</NavLink>
-    <NavLink href="/#">Contato</NavLink>
-    <NavLink href="/#">Contato</NavLink>
-    <NavLink href="/#">Contato</NavLink>
-    <NavLink href="/#">Contato</NavLink>
+    <NavLink href="#inicio">Inicio</NavLink>
+    <NavLink href="#servicos">Serviços</NavLink>
+    <NavLink href="#portfolio">Portfolio</NavLink>
+    <NavLink href="#contato">Contato</NavLink>
   </>
 )
 export const LinksRow = () => {
@@ -49,6 +48,7 @@ export const LogoLinks = () => (
       <Logo className="w-40 " />
       <div className="flex flex-col ">
         <span>Agência</span>
+
         <span className="text-4xl shadow-text-logo">o Diário</span>
       </div>
     </LogoLink>
@@ -72,7 +72,3 @@ export const BurgerMenuToogle = (props) => {
     </NavToggleButton>
   )
 }
-
-// <NavToggle onClick={toggleNavbar}>
-
-// </NavToggle>

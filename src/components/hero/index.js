@@ -1,5 +1,8 @@
 import React from 'react'
 import { FiPlayCircle } from 'react-icons/fi'
+import { WindupChildren } from 'windups'
+// import VideoBg from '../videoBg'
+
 import {
   Container,
   HeroContainer,
@@ -14,18 +17,25 @@ import {
 
 const Hero = () => {
   return (
-    <Container>
+    <Container id="inicio">
+      {/* <VideoBg /> */}
       <HeroContainer>
-        <TwoColumn>
+        <TwoColumn className="z-6">
           <LeftColumn className="pt-40">
-            <Notification>Gerenciamento de</Notification>
-
+            <Notification className="bg-blue-500 bg-opacity-50 pr-5">
+              Gerenciamento de
+            </Notification>
             <Heading>
-              <SlantedBackground>Redes Sociais</SlantedBackground>
-              <br />
-              <span className="text-blue-500 p-2 shadow-text-logo bg-blue-500 bg-opacity-25">
-                Você mais próximo do seu cliente!
-              </span>
+              <WindupChildren>
+                <SlantedBackground>Redes Sociais</SlantedBackground>
+                <br />
+                <span className="text-blue-500 pl-5 p-2 shadow-text-logo bg-blue-500 bg-opacity-25">
+                  Você mais próximo do seu
+                  <span className="text-diariolaranja font-extrabold">
+                    Cliente
+                  </span>
+                </span>
+              </WindupChildren>
             </Heading>
 
             <PrimaryAction className="rounded-full">

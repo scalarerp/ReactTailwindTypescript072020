@@ -1,5 +1,4 @@
 import React from 'react'
-import { FiDollarSign, FiPlayCircle } from 'react-icons/fi'
 
 import {
   FaInstagram,
@@ -10,8 +9,6 @@ import {
 
 import img1 from '../../assets/images/1.png'
 import img2 from '../../assets/images/2.png'
-import img3 from '../../assets/images/3.png'
-import img4 from '../../assets/images/4.png'
 
 import {
   Container,
@@ -24,15 +21,15 @@ import {
   ImageDivBackground64,
 } from '../misc.js'
 
-import TeamIllustrationSrc from '../../assets/images/logo.svg'
-import { ReactComponent as SvgDotPattern } from '../../assets/images/logo.svg'
+// import TeamIllustrationSrc from '../../assets/images/logo.svg'
+// import { ReactComponent as SvgDotPattern } from '../../assets/images/logo.svg'
 
 export default () => {
   return (
     <Container className="bg-gray-400">
       <ColumnsContainer>
         <TwoColumn>
-          <ContentCard className="rounded-2xl">
+          <ContentCard id="servicos" className="rounded-2xl">
             <div className="bg-white p-10 w-full rounded-t-2xl transition ease-in duration-700">
               <Title>Gerenciamento de Redes Sociais</Title>
               <ImageDivBackground64 imageSrc={img1} />
@@ -58,7 +55,7 @@ export default () => {
         <TwoColumn>
           <ContentCard className="rounded-2xl">
             <div className="bg-white p-10 w-full rounded-t-2xl">
-              <Title>Anuncio Impulsionado</Title>
+              <Title>Anúncio Impulsionado</Title>
               <ImageDivBackground64
                 imageSrc={img2}
                 transition={{ duration: 0.3 }}

@@ -5,18 +5,19 @@
   "dependencies": {
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",  
-    "framer-motion": "^1.10.2",  
+    "@types/react-dom": "^16.9.0",
+    "framer-motion": "^1.10.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-sticky-box": "^0.9.3",
-    "styled-components": "^5.1.1", 
-    "styled-icons":"^10.11.0",
-    "use-in-view": "^1.0.15"
-  },  
+    "styled-components": "^5.1.1",
+    "styled-icons": "^10.11.0",
+    "use-in-view": "^1.0.15",
+    "windups": "^1.0.2"
+  },
   "devDependencies": {
-    "@types/styled-components": "^5.1.1",   
+    "@types/styled-components": "^5.1.1",
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^7.1.1",
     "postcss-custom-properties": "^9.1.1",
@@ -49,5 +50,4 @@
       "last 1 safari version"
     ]
   }
-
 }
