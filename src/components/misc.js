@@ -7,19 +7,30 @@ export const Container = tw.div`relative`
 export const ContentWithPaddingXl = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`
 export const ContentWithPaddingLg = tw.div`max-w-screen-lg mx-auto py-10 lg:py-10`
 export const ContentWithVerticalPadding = tw.div`py-20 lg:py-24`
-export const Content2Xl = tw.div`max-w-screen-2xl mx-auto`
 
-export const ContentCard = tw.div`flex flex-col h-full bg-gray-200`
+export const ContentCard = tw.div`flex flex-col h-full bg-gray-200 `
 
-export const ColumnsContainer = tw.div`flex flex-wrap p-10 overflow-hidden`
-export const TwoColumn = tw.div` my-5 px-5 w-full  overflow-hidden sm:w-full md:w-full lg:w-1/2 xl:w-1/2`
-export const ThreeColumn = tw.div`my-5 px-5 w-full overflow-hidden sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/3`
+export const Columns = tw.div`
+flex flex-wrap overflow-hidden md:-mx-2 lg:-mx-4`
+
+// export const Columns = tw.div`
+// flex  flex-col justify-between
+// p-0 sm:p-6 md:p-10
+// pt-5
+// md:flex-row`
+
+export const Column = tw.div`
+w-full overflow-hidden 
+md:my-5 md:px-10 md:w-1/2 
+lg:my-4 `
+// export const Column = tw.div`
+// flex flex-col  md:px-10`
 
 export const SectionHeading = tw.h2`text-4xl sm:text-5xl font-black tracking-wide text-center`
 export const SectionDescription = tw.p`mt-4 text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 max-w-xl`
 export const Subheading = tw.h5`font-bold text-primary-500 text-center md:text-left`
-// export const Subheading = tw(SubheadingBase)`text-center md:text-left`
-export const Title = tw.h4`text-2xl text-gray-700 font-bold pl-10 pt-2 pb-5 `
+
+export const Title = tw.h4`p-5 uppercase text-2xl text-gray-700 font-bold text-center `
 export const TextContent = tw.div`lg:py-8 text-center  md:text-left`
 export const Heading = tw(SectionHeading)`
 mt-4 font-black text-left text-3xl 

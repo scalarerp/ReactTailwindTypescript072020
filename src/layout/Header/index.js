@@ -22,10 +22,15 @@ const Header = ({ collapseBreakpointClass = 'lg' }) => {
   const collapseBreakpointCss =
     collapseBreakPointCssMap[collapseBreakpointClass]
 
+  const navBackColorClass =
+    topPosition === '0'
+      ? 'bg-transparent h-32 px-5 py-2  '
+      : 'shadow-md bg-theme-nav-background h-24 px-0 py-2  '
+  // style={{ top: topPosition }}
   return (
     <>
-      <Container style={{ top: topPosition }}>
-        <LogoLinks className="flex-1" />
+      <Container className={navBackColorClass}>
+        <LogoLinks topPosition={topPosition} className="flex-1" />
 
         <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
           <LinksRow />

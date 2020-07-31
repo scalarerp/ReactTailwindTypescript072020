@@ -31,7 +31,7 @@ const Hero = () => {
                 <br />
                 <span className="text-blue-500 pl-5 p-2 shadow-text-logo bg-blue-500 bg-opacity-25">
                   Você mais próximo do seu
-                  <span className="text-diariolaranja font-extrabold">
+                  <span className="text-diariolaranja pl-3 font-extrabold">
                     Cliente
                   </span>
                 </span>

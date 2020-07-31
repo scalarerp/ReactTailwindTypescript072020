@@ -42,18 +42,21 @@ export const LinksCol = () => {
   )
 }
 
-export const LogoLinks = () => (
-  <div>
-    <LogoLink href="/">
-      <Logo className="w-40 " />
-      <div className="flex flex-col ">
-        <span>Agência</span>
-
-        <span className="text-4xl shadow-text-logo">o Diário</span>
-      </div>
-    </LogoLink>
-  </div>
-)
+export const LogoLinks = (props) => {
+  const LogoH =
+    props.topPosition === '0' ? 'w-40 duration-700 ' : 'w-20 duration-700 '
+  return (
+    <div>
+      <LogoLink href="/">
+        <Logo className={LogoH} />
+        <div className="flex flex-col ">
+          <span className="shadow-text-logo ">Agência</span>
+          <span className="text-4xl shadow-text-logo -mt-3">Diário</span>
+        </div>
+      </LogoLink>
+    </div>
+  )
+}
 
 const NavToggleButton = tw.button`
   lg:hidden  focus:outline-none

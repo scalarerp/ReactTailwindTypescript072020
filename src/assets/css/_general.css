@@ -1,25 +1,3 @@
-a {
-  @apply text-link-color;
-  text-decoration: none;
-}
-
-hr {
-  border: 0;
-  clear: both;
-  display: block;
-  width: 96%;
-  background-color: var(--theme-border-secondary);
-  height: 1px;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  line-height: 1.15;
-}
-
 /* Remove blue outline on chrome - This is bad for accessability */
 a:focus,
 button:focus,

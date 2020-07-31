@@ -8,6 +8,7 @@ export const VideoBgWrapper = styled.div`
   height: auto;
   overflow: hidden;
   z-index: -5;
+
   video {
     min-height: 100%;
     min-width: 100%;

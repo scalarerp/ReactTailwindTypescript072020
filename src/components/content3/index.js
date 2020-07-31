@@ -13,7 +13,7 @@ import img4 from '../../assets/images/4.png'
 import {
   Container,
   ColumnsContainer,
-  TwoColumn,
+  Columns,
   Description,
   Subheading,
   ContentCard,
@@ -25,7 +25,7 @@ export default () => {
   return (
     <Container>
       <ColumnsContainer>
-        <TwoColumn>
+        <Columns>
           <ContentCard className="rounded-2xl">
             <div className="bg-white p-10 w-full rounded-t-2xl transition ease-in duration-700">
               <Title>Criação de Vídeos</Title>
@@ -44,9 +44,9 @@ export default () => {
               </Description>
             </div>
           </ContentCard>
-        </TwoColumn>
+        </Columns>
 
-        <TwoColumn>
+        <Columns>
           <ContentCard className="rounded-2xl">
             <div className="bg-white p-10 w-full rounded-t-2xl">
               <Title>Criação de Identidade Visual</Title>
@@ -69,7 +69,7 @@ export default () => {
               </Description>
             </div>
           </ContentCard>
-        </TwoColumn>
+        </Columns>
       </ColumnsContainer>
     </Container>
   )

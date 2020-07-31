@@ -15,6 +15,7 @@ const BackgroundVideo = () => {
         loop="loop"
         muted="muted"
         preload="auto"
+        autobuffer
       >
         <source src={HeroVideo} type="video/mp4" />
       </video>

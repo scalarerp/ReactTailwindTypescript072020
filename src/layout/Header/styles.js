@@ -6,9 +6,8 @@ export const Container = tw.header`
 top-0 left-0 z-10 fixed 
 flex items-center justify-between
 w-screen  mx-auto
-px-5 py-2  h-32 
-duration-700 shadow-md
-bg-theme-nav-background  
+
+duration-700 
 `
 export const DesktopNavLinks = tw.nav`
 hidden lg:flex flex-1 justify-end `

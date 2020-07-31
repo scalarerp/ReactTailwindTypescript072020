@@ -1,7 +1,5 @@
-// See https://tailwindcss.com/docs/configuration for details
-
 module.exports = {
-  important: true,
+  // important: true,
   theme: {
     extend: {
       fontFamily: {
@@ -98,28 +96,28 @@ module.exports = {
       inset: {
         '1/2': '50%',
       },
-      maxWidth: (theme, { breakpoints }) => ({
-        ...theme('spacing'),
-        ...breakpoints(theme('screens')),
-      }),
-      minHeight: (theme) => ({
-        // '0': '0',
-        // full: '100%',
-        // screen: '100vh',
-        ...theme('spacing'),
-      }),
+      // maxWidth: (theme, { breakpoints }) => ({
+      //   ...theme('spacing'),
+      //   ...breakpoints(theme('screens')),
+      // }),
+      // minHeight: (theme) => ({
+      //   // '0': '0',
+      //   // full: '100%',
+      //   // screen: '100vh',
+      //   ...theme('spacing'),
+      // }),
       opacity: {
         '5': '.05',
         '10': '.1',
         '15': '.15',
       },
-      screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
-        '2xl': '1440px',
-      },
+      // screens: {
+      //   // sm: '640px',
+      //   // md: '768px',
+      //   // lg: '1024px',
+      //   // xl: '1280px',
+      //   '2xl': '1440px',
+      // },
       spacing: {
         '72': '18rem',
         '80': '20rem',
@@ -127,10 +125,10 @@ module.exports = {
         '128': '32rem',
         '144': '36rem',
       },
-      strokeWidth: {
-        '3': '3',
-        //'4': '4'
-      },
+      // strokeWidth: {
+      //   '3': '3',
+      //   //'4': '4'
+      // },
       translate: {
         '-2/3': '-66.67%',
         '2/3': '66.67%',
@@ -161,19 +159,18 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    // translate: ['responsive', 'hover', 'focus', 'motion-safe', 'motion-reduce'],
+  },
   plugins: [],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
-    content: ['./public/index.html', './src/**/*.ts', './src/**/*.tsx'],
+    content: [
+      './public/index.html',
+      './src/**/*.ts',
+      './src/**/*.js',
+      './src/**/*.jsx',
+      './src/**/*.tsx',
+    ],
   },
 }
-
-//teste
-// function generateColorProps(name) {
-//   let props = {}
-//   for (let i = 1; i <= 9; i++) {
-//     props[`${i}00`] = `var(--color-${name}-${i}00)`
-//   }
-//   return props
-// }
