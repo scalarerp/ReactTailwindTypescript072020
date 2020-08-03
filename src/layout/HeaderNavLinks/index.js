@@ -25,7 +25,6 @@ mr-5
 sm:mr-0
 text-xl uppercase
 bg-whatsapp 
-
 hover:bg-diariolaranja 
 hocus:text-white
 text-white 

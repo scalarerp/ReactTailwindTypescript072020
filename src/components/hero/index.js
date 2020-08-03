@@ -22,10 +22,10 @@ const Hero = () => {
       {/* <VideoBg /> */}
       <HeroContainer>
         <div className="flex flex-col z-6 pt-40 font-sunn text-white">
-          <p className="text-5xl ml-24">Gerenciamento de</p>
-          <p className="text-8xl ml-24 -mt-12">Redes Sociais</p>
+          <p className="text-5xl ml-3 sm:ml-24 ">Gerenciamento de</p>
+          <p className="text-8xl ml-3 sm:ml-24 -mt-12">Redes Sociais</p>
 
-          <div className="text-5xl font-panton font-light  mt-16  uppercase ml-24">
+          <div className="text-5xl font-panton font-light  mt-16  uppercase ml-3 sm:ml-24">
             <p className="-mt-5">Você Mais</p>
             <p className="-mt-2">Próximo do</p>
             <p className="-mt-2">

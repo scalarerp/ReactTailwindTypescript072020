@@ -6,9 +6,7 @@ import p_dhein from '../../assets/images/p_dhein.jpeg'
 import p_autosul from '../../assets/images/p_autosul.jpeg'
 import p_massoterapia from '../../assets/images/p_massoterapia.jpeg'
 
-import rodape from '../../assets/images/rodape.png'
-
-import { Container, ImageDivBackground64 } from '../misc.js'
+import { Container } from '../misc.js'
 
 export default () => {
   const _Cards = [
@@ -89,11 +87,11 @@ export default () => {
           </p>
         </div>
 
-        <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
+        {/* <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
           <p className="text-lg font-bold text-gray-700 dark:text-gray-400">
             <ImageDivBackground64 imageSrc={rodape} />
           </p>
-        </div>
+        </div> */}
       </Container>
     </>
   )
