@@ -1,22 +1,41 @@
 import React from 'react'
-import { Container, ContentWithPaddingXl } from '../misc.js'
-import { WindupChildren } from 'windups'
+import { Container, Columns, Column } from '../misc.js'
 
 const Content1 = () => {
   return (
     <Container id="contato" className="bg-white">
-      <ContentWithPaddingXl>
-        <WindupChildren>
-          <div className="flex flex-col justify-center text-center divide-y divide-gray-400 ">
-            <h1 className="text-5xl  font-extrabold leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
-              Contato
-            </h1>
-            <p className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
-              ...
-            </p>
+      <Columns>
+        <Column>
+          <div class="w-full">
+            <iframe
+              title="mapa"
+              frameborder="0"
+              className="p-0 m-0 w-full h-128"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&amp;q=place_id:ChIJz1_uBF1FGZURnmu-iz_3WCk"
+              allowfullscreen=""
+            ></iframe>
           </div>
-        </WindupChildren>
-      </ContentWithPaddingXl>
+        </Column>
+        <Column>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+          <p>adfadsdsadasf</p>
+        </Column>
+      </Columns>
     </Container>
   )
 }
