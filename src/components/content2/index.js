@@ -1,11 +1,5 @@
 import React from 'react'
 import Card1 from '../cards/card1'
-// import {
-//   FaInstagram,
-//   FaFacebookF,
-//   FaWhatsapp,
-//   FaFacebookMessenger,
-// } from 'react-icons/fa'
 
 import c1a from '../../assets/images/1.png'
 import c1b from '../../assets/images/5.png'
@@ -65,7 +59,7 @@ export default () => {
 
   return (
     <>
-      <Container className="bg-gray-200">
+      <Container id="servicos" className="bg-gray-200 p-2 sm:p-6 md:p12">
         <Columns>
           {_Cards1.map((card, index) => (
             <Column key={index}>

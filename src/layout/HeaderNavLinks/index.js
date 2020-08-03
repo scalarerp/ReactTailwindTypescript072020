@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { ReactComponent as Logo } from '../../assets/images/logo.svg'
 
-const NavLinks = tw.div`inline-block`
+const NavLinks = tw.div``
 const NavLink = tw.a`
   text-xl uppercase my-2 lg:mx-6 lg:my-0 h-10
   font-semibold tracking-wide 

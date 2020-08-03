@@ -11,9 +11,6 @@ export const Container = styled.div`
 
 `
 
-//
-// background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
-
 export const HeroContainer = tw.div`
 relative px-4  z-5 pb-40
 sm:px-8 max-w-screen-xl mx-auto`

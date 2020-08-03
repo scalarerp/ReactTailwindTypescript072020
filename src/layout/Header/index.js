@@ -27,6 +27,7 @@ const Header = ({ collapseBreakpointClass = 'lg' }) => {
       ? 'bg-transparent h-32 px-5 py-2  '
       : 'shadow-md bg-theme-nav-background h-24 px-0 py-2  '
   // style={{ top: topPosition }}
+
   return (
     <>
       <Container className={navBackColorClass}>
@@ -43,6 +44,7 @@ const Header = ({ collapseBreakpointClass = 'lg' }) => {
             initial={{ x: '150%', display: 'none' }}
             animate={animation}
             css={collapseBreakpointCss.mobileNavLinks}
+            onClick={toggleNavbar}
           >
             <LinksCol />
           </MobileNavLinks>
