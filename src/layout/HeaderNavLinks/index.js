@@ -2,6 +2,8 @@ import React from 'react'
 import tw from 'twin.macro'
 import styled from 'styled-components'
 import { FiMenu, FiX } from 'react-icons/fi'
+import { RiWhatsappLine } from 'react-icons/ri'
+
 import { ReactComponent as Logo } from '../../assets/images/logo.svg'
 
 const NavLinks = tw.div``
@@ -18,6 +20,22 @@ const LogoLink = styled(NavLink)`
   ${tw`flex items-center font-black 
   border-b-0 text-2xl! ml-0!`};
 `
+export const WhastAppLink = tw.a` 
+mr-5
+sm:mr-0
+text-xl uppercase
+bg-diariolaranja 
+hover:bg-whatsapp 
+hocus:text-white
+text-white 
+font-bold 
+py-2 px-4 
+rounded 
+inline-flex 
+justify-center
+items-center
+text-center
+`
 
 const LinksNav = () => (
   <>
@@ -25,6 +43,14 @@ const LinksNav = () => (
     <NavLink href="#servicos">Serviços</NavLink>
     <NavLink href="#portfolio">Portfolio</NavLink>
     <NavLink href="#contato">Contato</NavLink>
+
+    <WhastAppLink
+      href="https://api.whatsapp.com/send?phone=555199961716"
+      target="_blank"
+    >
+      <RiWhatsappLine className="icon" />
+      <span>Chama no Whats</span>
+    </WhastAppLink>
   </>
 )
 export const LinksRow = () => {
@@ -51,7 +77,7 @@ export const LogoLinks = (props) => {
         <Logo className={LogoH} />
         <div className="flex flex-col ">
           <span className="shadow-text-logo ">Agência</span>
-          <span className="text-4xl shadow-text-logo -mt-3">Diário</span>
+          <span className="text-4xl shadow-text-logo -mt-3">O Diário</span>
         </div>
       </LogoLink>
     </div>

@@ -6,6 +6,7 @@ import p_dhein from '../../assets/images/p_dhein.jpeg'
 import p_autosul from '../../assets/images/p_autosul.jpeg'
 import p_massoterapia from '../../assets/images/p_massoterapia.jpeg'
 import vamos_conversar from '../../assets/images/vamos_conversar.png'
+import rodape from '../../assets/images/rodape.png'
 
 import { Container, ImageDivBackground64 } from '../misc.js'
 
@@ -45,7 +46,7 @@ export default () => {
     <>
       <Container id="portfolio" className="p-0 m-0 mt-10">
         <div className="flex flex-col justify-center text-center divide-y divide-gray-400 ">
-          <h1 className="text-5xl  font-extrabold leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
+          <h1 className="text-4xl font-panton font-bold uppercase leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
             Portfólio
           </h1>
           <p className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
@@ -68,11 +69,17 @@ export default () => {
         </div>
 
         <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
-          <h1 className="text-5xl  font-extrabold leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
+          <h1 className="text-4xl font-panton font-bold uppercase leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
             Vamos Conversar?
           </h1>
           <p className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
             <ImageDivBackground64 imageSrc={vamos_conversar} />
+          </p>
+        </div>
+
+        <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
+          <p className=" text-lg font-bold text-gray-700 dark:text-gray-400">
+            <ImageDivBackground64 imageSrc={rodape} />
           </p>
         </div>
       </Container>

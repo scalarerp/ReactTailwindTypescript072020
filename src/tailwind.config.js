@@ -6,6 +6,12 @@ module.exports = {
         display: ['Inter', 'system-ui'],
         // display: ["Noto Sans", sans-serif],
         sans: `"Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
+        sunn: ['Amatic SC', 'cursive'],
+        panton: ['Manrope', 'sans-serif'],
+      },
+      fontSize: {
+        '7xl': '7rem',
+        '8xl': '9rem',
       },
       borderRadius: {
         '2xl': '1rem',
@@ -25,6 +31,7 @@ module.exports = {
         diariolaranja: '#f68f33',
         roxoTre: '#6415ff',
         amarelo: '#FFDE1E',
+        whatsapp: '#00e676',
 
         //https://www.colorhexa.com/0f62ac
         primary: {
