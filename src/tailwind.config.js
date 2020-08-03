@@ -33,6 +33,12 @@ module.exports = {
         amarelo: '#FFDE1E',
         whatsapp: '#00e676',
 
+        facebook: '#3b5998',
+        twitter: '#55acee',
+        google: '#dd4b39',
+        linkedin: '#007bb5',
+        youtube: '#bb0000',
+
         //https://www.colorhexa.com/0f62ac
         primary: {
           100: '#C0DFFA',

@@ -76,7 +76,7 @@ export default () => {
             Vamos Conversar?
           </h1>
 
-          <p className="shadow-2xl rounded-lg bg-primary-400 mx-20 mt-10 text-white">
+          <p className="shadow-2xl rounded-lg bg-primary-400 p-12 mx-20 mt-10 text-white">
             <h1 className="text-4xl font-sunn mt-5  ">
               Envie uma mensagem pelo WhatsApp:
             </h1>

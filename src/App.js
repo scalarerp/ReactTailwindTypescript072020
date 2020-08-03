@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from './layout'
+import SocialStiky from './components/socialSticky'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="theme-light h-screen ">
         <Layout />
       </div>
+      <SocialStiky />
     </>
   )
 }

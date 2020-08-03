@@ -24,8 +24,9 @@ export const WhastAppLink = tw.a`
 mr-5
 sm:mr-0
 text-xl uppercase
-bg-diariolaranja 
-hover:bg-whatsapp 
+bg-whatsapp 
+
+hover:bg-diariolaranja 
 hocus:text-white
 text-white 
 font-bold 
