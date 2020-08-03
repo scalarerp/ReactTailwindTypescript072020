@@ -22,11 +22,21 @@ const CardHoverOverlay = styled(motion.div)`
 const CardContent = tw.p``
 const CardTitle = tw.h5`text-3xl uppercase text-diariolaranja font-bold
 `
-// font-bold text-xl uppercase text-center pt-5 pl-6 pb-3
 
 const CardText = tw.div`p-4 text-white`
 
-export default ({ index, imageSrc, title, content, url = '#' }) => {
+export const VisitarPerfil = tw.button`
+w-1/2 
+text-center text-sm font-semibold text-white
+bg-diariolaranja rounded-full
+px-3 py-1
+mt-5
+lg:px-4 lg:py-2  lg:text-xl
+transition duration-500 ease-in-out
+hover:bg-blue-500 uppercase
+transform hover:-translate-y-1 hover:scale-110`
+
+export default ({ index, imageSrc, title, content, url }) => {
   console.log(imageSrc)
 
   return (
@@ -37,6 +47,7 @@ export default ({ index, imageSrc, title, content, url = '#' }) => {
         initial="rest"
         whileHover="hover"
         animate="rest"
+        target="_blank"
       >
         <CardImageContainer imageSrc={imageSrc}>
           <CardHoverOverlay
@@ -56,6 +67,7 @@ export default ({ index, imageSrc, title, content, url = '#' }) => {
               <CardText>
                 <CardTitle>{title}</CardTitle>
                 <CardContent>{content}</CardContent>
+                <VisitarPerfil>Visitar Perfil</VisitarPerfil>
               </CardText>
             </CardContent>
           </CardHoverOverlay>

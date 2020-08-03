@@ -5,8 +5,9 @@ import p_limpatubo from '../../assets/images/p_limpatubo.jpeg'
 import p_dhein from '../../assets/images/p_dhein.jpeg'
 import p_autosul from '../../assets/images/p_autosul.jpeg'
 import p_massoterapia from '../../assets/images/p_massoterapia.jpeg'
+import vamos_conversar from '../../assets/images/vamos_conversar.png'
 
-import { Container } from '../misc.js'
+import { Container, ImageDivBackground64 } from '../misc.js'
 
 export default () => {
   const _Cards = [
@@ -60,9 +61,19 @@ export default () => {
                 imageSrc={card.imageSrc}
                 title={card.title}
                 content={card.content}
+                url={card.url}
               ></CardImageAndOverlayText>
             </div>
           ))}
+        </div>
+
+        <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
+          <h1 className="text-5xl  font-extrabold leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
+            Vamos Conversar?
+          </h1>
+          <p className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
+            <ImageDivBackground64 imageSrc={vamos_conversar} />
+          </p>
         </div>
       </Container>
     </>

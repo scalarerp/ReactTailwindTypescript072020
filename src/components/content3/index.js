@@ -9,7 +9,7 @@ import {
   Variants,
 } from '../misc.js'
 
-import megafone from '../../assets/images/7.png'
+import megafone from '../../assets/images/15.png'
 import diario from '../../assets/images/9.png'
 import microfone from '../../assets/images/10.png'
 
