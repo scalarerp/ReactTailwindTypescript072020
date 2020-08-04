@@ -77,12 +77,12 @@ export const LogoLinks = (props) => {
       <LogoLink href="/">
         <Logo className={LogoH} />
         <div className="flex flex-col ">
-          <span className="shadow-text-logo ">Agência</span>
+          <span className="shadow-text-logo text-1rem ">Agência</span>
           <div
-            className="
-            text-4xl 
+            className="-mt-3
+            text-2rem 
             shadow-text-logo 
-            -mt-3 inline-flex 
+            inline-flex 
             "
           >
             <span className="mr-2">O</span>

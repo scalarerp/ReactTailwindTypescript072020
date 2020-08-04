@@ -9,7 +9,7 @@ w-screen
 duration-700 
 `
 export const DesktopNavLinks = tw.nav`
-hidden lg:flex flex-row justify-end`
+hidden lg:flex  justify-end`
 
 export const MobileNavLinksContainer = tw.nav`
  items-center justify-between`

@@ -21,7 +21,7 @@ export const SectionHeading = tw.h2`text-4xl sm:text-5xl font-black tracking-wid
 export const SectionDescription = tw.p`mt-4 text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 max-w-xl`
 export const Subheading = tw.h5`font-bold text-primary-500 text-center md:text-left`
 
-export const Title = tw.div`font-bold text-xl font-panton uppercase text-center pt-5 pl-6 pb-3 `
+export const Title = tw.div`font-bold text-xl font-panton uppercase text-center p-2 sm:pt-5 sm:pl-6 sm:pb-3 `
 export const TextContent = tw.div`lg:py-8 text-center  md:text-left`
 export const Heading = tw(SectionHeading)`
 mt-4 font-black text-left text-3xl 

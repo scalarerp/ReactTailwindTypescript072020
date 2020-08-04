@@ -12,7 +12,7 @@ export const Container = styled.div`
 `
 
 export const HeroContainer = tw.div`
-relative px-4  z-5 pb-20 w-full
+relative px-4  z-5 pb-20 w-full max-w-screen-xl
 sm:px-8  mx-auto`
 
 export const TwoColumn = tw.div`

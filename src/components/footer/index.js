@@ -1,48 +1,39 @@
 import React from 'react'
 import Logorodape from '../../assets/images/logorodape.png'
-import { Container, ImageDivBackground64 } from '../misc.js'
+import { ImageDivBackground64 } from '../misc.js'
 
 export default () => (
   <>
-    <Container
-      className="p-0 m-0 text-white mt-5"
-      style={{ backgroundColor: '#111' }}
-    >
-      <div className="flex flex-row">
-        <div className="w-1/2">
-          <a
-            href="https://odiario.net/"
-            target="_blanck"
-            rel="noopener noreferrer"
-          >
-            <ImageDivBackground64
-              className="h-24"
-              imageSrc={Logorodape}
-            ></ImageDivBackground64>
-          </a>
-        </div>
+    <div className="text-white mt-10 " style={{ backgroundColor: '#111' }}>
+      <div className="flex">
+        <a
+          className="flex-1 "
+          href="https://odiario.net/"
+          target="_blanck"
+          rel="noopener noreferrer"
+        >
+          <ImageDivBackground64
+            className="w-48 sm:w-56 mr-5 sm:mr-20"
+            imageSrc={Logorodape}
+          ></ImageDivBackground64>
+        </a>
 
-        <div className="w-1/2 p-12">
-          Email:
-          <p className="text-2xl text-diariolaranja">
-            <a
-              href="mailto:contato@agenciaodiario.net"
-              rel="noopener noreferrer"
-            >
-              contato@agenciaodiario.net
-            </a>
-          </p>
-        </div>
+        <a
+          className="flex-1 p-10 "
+          href="mailto:contato@agenciaodiario.net"
+          rel="noopener noreferrer"
+        >
+          Email:{' '}
+          <span className="text-diariolaranja">contato@agenciaodiario.net</span>
+        </a>
       </div>
 
       <div
-        className="flex flex-row text-center items-center p-3"
+        className="w-full inline-flex justify-center  p-3"
         style={{ backgroundColor: '#000' }}
       >
-        <div className="w-full ">
-          <p>Copyright© 2020 - Grupo o Diário</p>
-        </div>
+        Copyright© 2020 - Grupo o Diário
       </div>
-    </Container>
+    </div>
   </>
 )
