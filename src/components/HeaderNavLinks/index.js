@@ -71,7 +71,9 @@ export const LinksCol = () => {
 
 export const LogoLinks = (props) => {
   const LogoH =
-    props.topPosition === '0' ? 'w-40 duration-700 ' : 'w-20 duration-700 '
+    props.topPosition === '0'
+      ? 'w-40 -ml-8 duration-700 '
+      : 'w-20 duration-700 '
   return (
     <div>
       <LogoLink href="/">
@@ -97,6 +99,7 @@ export const LogoLinks = (props) => {
 const NavToggleButton = tw.button`
   lg:hidden  focus:outline-none
   h-20 w-20
+  fixed top-0 right-0
   hocus:text-primary-900
   transition duration-700
 `

@@ -7,13 +7,6 @@ export const Container = tw.div`relative`
 export const ContentWithPaddingXl = tw.div`max-w-screen-xl mx-auto pt-10 pb-6 `
 
 export const ContentCard = tw.div`flex flex-col h-full bg-gray-200`
-// export const Columns = tw.div`flex flex-wrap
-// overflow-hidden md:-mx-2 lg:-mx-4`
-
-// export const Column = tw.div`
-// w-full overflow-hidden  m-2
-// md:my-5 md:px-10 md:w-1/2
-// lg:my-4 `
 
 export const OpacityOverlay = tw.div`z-2 absolute inset-0 bg-gray-900 opacity-50`
 
@@ -21,7 +14,7 @@ export const SectionHeading = tw.h2`text-4xl sm:text-5xl font-black tracking-wid
 export const SectionDescription = tw.p`mt-4 text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100 max-w-xl`
 export const Subheading = tw.h5`font-bold text-primary-500 text-center md:text-left`
 
-export const Title = tw.div`font-bold text-xl font-panton uppercase text-center p-2 sm:pt-5 sm:pl-6 sm:pb-3 `
+export const Title = tw.div`font-bold text-xl font-panton uppercase text-center p-1 sm:pt-5 sm:pl-6 sm:pb-1 `
 export const TextContent = tw.div`lg:py-8 text-center  md:text-left`
 export const Heading = tw(SectionHeading)`
 mt-4 font-black text-left text-3xl 

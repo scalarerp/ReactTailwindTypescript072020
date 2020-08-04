@@ -15,12 +15,11 @@ const CardHoverOverlay = styled(motion.div)`
   background-color: rgba(0, 0, 0, 0.7);
   ${tw`absolute inset-0 flex justify-center items-center`}
 `
-const CardContent = tw.div``
-const CardTitle = tw.div`text-3xl uppercase text-diariolaranja font-bold
+const CardContent = tw.div`flex flex-col text-white 
+pl-4 justify-start`
+const CardTitle = tw.div`
+text-xl uppercase px-4 text-diariolaranja font-bold
 `
-
-const CardText = tw.div`p-4 text-white`
-
 export const VisitarPerfil = tw.button`
 w-1/2 
 text-center text-sm font-semibold text-white
@@ -60,11 +59,9 @@ export default ({ index, imageSrc, title, content, url }) => {
             transition={{ duration: 0.4 }}
           >
             <CardContent>
-              <CardText>
-                <CardTitle>{title}</CardTitle>
-                <CardContent>{content}</CardContent>
-                <VisitarPerfil>Visitar Perfil</VisitarPerfil>
-              </CardText>
+              <CardTitle>{title}</CardTitle>
+              <CardContent>{content}</CardContent>
+              <VisitarPerfil>Visitar Perfil</VisitarPerfil>
             </CardContent>
           </CardHoverOverlay>
         </CardImageContainer>

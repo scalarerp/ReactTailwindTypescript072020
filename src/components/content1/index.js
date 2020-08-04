@@ -7,12 +7,24 @@ const Content1 = () => {
     <Container className="bg-white mb-10">
       <ContentWithPaddingXl>
         {/* <WindupChildren> */}
-        <div className="flex flex-col justify-center text-center divide-y divide-gray-400 ">
-          <div className="text-1.5rem lg:text-2.5rem font-panton font-bold uppercase leading-none tracking-tight text-gray-800  ">
+        <div
+          className="flex flex-col justify-center text-center 
+        divide-y divide-gray-400 "
+        >
+          <div
+            className="text-1.5rem lg:text-2.5rem 
+          px-20
+          font-panton font-bold uppercase leading-none 
+          tracking-tight text-gray-800  "
+          >
             Uma agência especializada em redes sociais
           </div>
 
-          <div className="mt-6 py-7 pt-12 text-1rem lg:text-1.5rem font-bold text-gray-700 dark:text-gray-400">
+          <div
+            className="mt-6 py-7 pt-12  px-12
+          text-1rem lg:text-1.5rem 
+          font-bold text-gray-700 "
+          >
             Marque presença nas redes, tenha uma posição de destaque e
             aproxime-se de seus clientes.
           </div>

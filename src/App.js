@@ -1,16 +1,13 @@
 import React from 'react'
-import Layout from './layout'
-import SocialStiky from './components/socialSticky'
+import Layout from './components/layout'
+import { LeftStiky, WhatsAppRightBottom } from './components/socialSticky'
 
-function App() {
-  return (
-    <>
-      <div className="theme-light h-screen ">
-        <Layout />
-      </div>
-      <SocialStiky />
-    </>
-  )
-}
-
-export default App
+export default () => (
+  <>
+    <div className="theme-light h-screen ">
+      <Layout />
+    </div>
+    <LeftStiky />
+    <WhatsAppRightBottom />
+  </>
+)
