@@ -9,13 +9,14 @@ import {
   Variants,
 } from 'components/misc'
 
-const Container = tw.div`bg-white rounded overflow-hidden h-full shadow-lg`
+const Container = tw.div`
+bg-white rounded overflow-hidden h-full shadow-lg`
 
 export default ({
   imgHeader,
   imgContent,
   title,
-  question = 'Saiba Mais',
+
   description = 'Lorem ipsum dolor sit amet',
 }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -27,9 +28,7 @@ export default ({
       <ImageDivBackground64 imageSrc={imgContent}></ImageDivBackground64>
 
       <div className="px-10 py-4 text-center">
-        <SaibaMais type="button" onClick={() => setIsOpen(!isOpen)}>
-          {question}
-        </SaibaMais>
+        <SaibaMais onClick={() => setIsOpen(!isOpen)}></SaibaMais>
       </div>
 
       <motion.nav animate={isOpen ? 'open' : 'closed'} variants={Variants}>

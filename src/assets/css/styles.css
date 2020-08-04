@@ -8996,11 +8996,43 @@ input:focus {
   font-size: 4rem;
 }
 
-.text-7xl{
+.text-1\.5rem{
+  font-size: 1.5rem;
+}
+
+.text-2rem{
+  font-size: 2rem;
+}
+
+.text-2\.5rem{
+  font-size: 2.5rem;
+}
+
+.text-3rem{
+  font-size: 3rem;
+}
+
+.text-4rem{
+  font-size: 4rem;
+}
+
+.text-5rem{
+  font-size: 5rem;
+}
+
+.text-6rem{
+  font-size: 6rem;
+}
+
+.text-7rem{
   font-size: 7rem;
 }
 
-.text-8xl{
+.text-8rem{
+  font-size: 8rem;
+}
+
+.text-9rem{
   font-size: 9rem;
 }
 
@@ -27904,11 +27936,43 @@ input:focus {
     font-size: 4rem;
   }
 
-  .sm\:text-7xl{
+  .sm\:text-1\.5rem{
+    font-size: 1.5rem;
+  }
+
+  .sm\:text-2rem{
+    font-size: 2rem;
+  }
+
+  .sm\:text-2\.5rem{
+    font-size: 2.5rem;
+  }
+
+  .sm\:text-3rem{
+    font-size: 3rem;
+  }
+
+  .sm\:text-4rem{
+    font-size: 4rem;
+  }
+
+  .sm\:text-5rem{
+    font-size: 5rem;
+  }
+
+  .sm\:text-6rem{
+    font-size: 6rem;
+  }
+
+  .sm\:text-7rem{
     font-size: 7rem;
   }
 
-  .sm\:text-8xl{
+  .sm\:text-8rem{
+    font-size: 8rem;
+  }
+
+  .sm\:text-9rem{
     font-size: 9rem;
   }
 
@@ -46813,11 +46877,43 @@ input:focus {
     font-size: 4rem;
   }
 
-  .md\:text-7xl{
+  .md\:text-1\.5rem{
+    font-size: 1.5rem;
+  }
+
+  .md\:text-2rem{
+    font-size: 2rem;
+  }
+
+  .md\:text-2\.5rem{
+    font-size: 2.5rem;
+  }
+
+  .md\:text-3rem{
+    font-size: 3rem;
+  }
+
+  .md\:text-4rem{
+    font-size: 4rem;
+  }
+
+  .md\:text-5rem{
+    font-size: 5rem;
+  }
+
+  .md\:text-6rem{
+    font-size: 6rem;
+  }
+
+  .md\:text-7rem{
     font-size: 7rem;
   }
 
-  .md\:text-8xl{
+  .md\:text-8rem{
+    font-size: 8rem;
+  }
+
+  .md\:text-9rem{
     font-size: 9rem;
   }
 
@@ -65722,11 +65818,43 @@ input:focus {
     font-size: 4rem;
   }
 
-  .lg\:text-7xl{
+  .lg\:text-1\.5rem{
+    font-size: 1.5rem;
+  }
+
+  .lg\:text-2rem{
+    font-size: 2rem;
+  }
+
+  .lg\:text-2\.5rem{
+    font-size: 2.5rem;
+  }
+
+  .lg\:text-3rem{
+    font-size: 3rem;
+  }
+
+  .lg\:text-4rem{
+    font-size: 4rem;
+  }
+
+  .lg\:text-5rem{
+    font-size: 5rem;
+  }
+
+  .lg\:text-6rem{
+    font-size: 6rem;
+  }
+
+  .lg\:text-7rem{
     font-size: 7rem;
   }
 
-  .lg\:text-8xl{
+  .lg\:text-8rem{
+    font-size: 8rem;
+  }
+
+  .lg\:text-9rem{
     font-size: 9rem;
   }
 
@@ -84631,11 +84759,43 @@ input:focus {
     font-size: 4rem;
   }
 
-  .xl\:text-7xl{
+  .xl\:text-1\.5rem{
+    font-size: 1.5rem;
+  }
+
+  .xl\:text-2rem{
+    font-size: 2rem;
+  }
+
+  .xl\:text-2\.5rem{
+    font-size: 2.5rem;
+  }
+
+  .xl\:text-3rem{
+    font-size: 3rem;
+  }
+
+  .xl\:text-4rem{
+    font-size: 4rem;
+  }
+
+  .xl\:text-5rem{
+    font-size: 5rem;
+  }
+
+  .xl\:text-6rem{
+    font-size: 6rem;
+  }
+
+  .xl\:text-7rem{
     font-size: 7rem;
   }
 
-  .xl\:text-8xl{
+  .xl\:text-8rem{
+    font-size: 8rem;
+  }
+
+  .xl\:text-9rem{
     font-size: 9rem;
   }
 

@@ -26,9 +26,7 @@ const Content3 = () => {
           <Title>divulgação personalizada</Title>
 
           <div className="px-10 py-4 text-center">
-            <SaibaMais type="button" onClick={() => setIsOpen(!isOpen)}>
-              Saiba Mais
-            </SaibaMais>
+            <SaibaMais onClick={() => setIsOpen(!isOpen)}></SaibaMais>
           </div>
 
           <motion.nav animate={isOpen ? 'open' : 'closed'} variants={Variants}>

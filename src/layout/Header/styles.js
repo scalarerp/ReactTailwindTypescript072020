@@ -5,12 +5,11 @@ import { motion } from 'framer-motion'
 export const Container = tw.header`
 top-0 left-0 z-10 fixed 
 flex items-center justify-between
-w-screen  mx-auto
-
+w-screen  
 duration-700 
 `
 export const DesktopNavLinks = tw.nav`
-hidden lg:flex flex-1 justify-end `
+hidden lg:flex flex-row justify-end`
 
 export const MobileNavLinksContainer = tw.nav`
  items-center justify-between`

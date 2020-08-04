@@ -47,9 +47,9 @@ export default () => {
           <h1 className="text-4xl font-panton font-bold uppercase leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
             Portfólio
           </h1>
-          <p className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
+          <div className="mt-6 mb-12 pt-12 text-lg font-bold text-gray-700 dark:text-gray-400">
             Alguns de nossos trabalhos recentes
-          </p>
+          </div>
         </div>
 
         <div className="flex flex-wrap overflow-hidden">
@@ -70,21 +70,21 @@ export default () => {
           id="contato"
           className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 "
         >
-          <h1 className="text-4xl font-panton font-bold uppercase leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
+          <div className="text-4xl font-panton font-bold uppercase leading-none tracking-tight text-gray-800 lg:text-6xl dark:text-gray-400">
             Vamos Conversar?
-          </h1>
+          </div>
 
-          <p className="shadow-2xl rounded-lg bg-primary-400 p-12 mx-20 mt-10 text-white">
-            <h1 className="text-4xl font-sunn mt-5  ">
+          <div className="shadow-2xl sm:rounded-lg bg-primary-400 sm:p-5  sm:mx-10 mt-2 sm:mt-10 text-white">
+            <div className="text-2rem font-sunn">
               Envie uma mensagem pelo WhatsApp:
-            </h1>
-            <h1 className="inline-flex justify-center items-center text-center">
-              <RiWhatsappLine className="icon w-24 h-24" />
-              <span className="text-5xl font-panton font-bold uppercase">
+            </div>
+            <div className="inline-flex justify-center items-center text-center">
+              <RiWhatsappLine className="icon w-12 h-12" />
+              <span className="text-2rem font-panton font-bold uppercase">
                 (51) 99996-1716
               </span>
-            </h1>
-          </p>
+            </div>
+          </div>
         </div>
 
         {/* <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">

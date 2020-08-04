@@ -13,7 +13,7 @@ import c3b from '../../assets/images/7.png'
 import c4a from '../../assets/images/4.png'
 import c4b from '../../assets/images/8.png'
 
-import { Container, Columns, Column } from '../misc.js'
+import { Container } from '../misc.js'
 
 export default () => {
   const _Cards1 = [
@@ -59,10 +59,10 @@ export default () => {
 
   return (
     <>
-      <Container id="servicos" className="bg-gray-200 p-2 sm:p-6 md:p12">
-        <Columns>
+      <Container id="servicos" className="bg-gray-200 p-2 sm:p-6 ">
+        <div className="flex flex-wrap">
           {_Cards1.map((card, index) => (
-            <Column key={index}>
+            <div className=" sm:w-1/2 p-3 " key={index}>
               <Card1
                 index={index}
                 imgHeader={card.imgHeader}
@@ -70,9 +70,9 @@ export default () => {
                 title={card.title}
                 description={card.description}
               ></Card1>
-            </Column>
+            </div>
           ))}
-        </Columns>
+        </div>
       </Container>
     </>
   )

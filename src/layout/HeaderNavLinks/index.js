@@ -20,7 +20,7 @@ const LogoLink = styled(NavLink)`
   ${tw`flex items-center font-black 
   border-b-0 text-2xl! ml-0!`};
 `
-export const WhastAppLink = tw.a` 
+export const WhatsAppLink = tw.a` 
 mr-5
 sm:mr-0
 text-xl uppercase
@@ -39,18 +39,19 @@ text-center
 
 const LinksNav = () => (
   <>
-    <NavLink href="#inicio">Inicio</NavLink>
+    <NavLink href="#inicio">Início</NavLink>
     <NavLink href="#servicos">Serviços</NavLink>
-    <NavLink href="#portfolio">Portfolio</NavLink>
+    <NavLink href="#portfolio">Portfólio</NavLink>
     <NavLink href="#contato">Contato</NavLink>
 
-    <WhastAppLink
+    <WhatsAppLink
       href="https://api.whatsapp.com/send?phone=555199961716"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <RiWhatsappLine className="icon" />
       <span>Chama no Whats</span>
-    </WhastAppLink>
+    </WhatsAppLink>
   </>
 )
 export const LinksRow = () => {
@@ -77,7 +78,16 @@ export const LogoLinks = (props) => {
         <Logo className={LogoH} />
         <div className="flex flex-col ">
           <span className="shadow-text-logo ">Agência</span>
-          <span className="text-4xl shadow-text-logo -mt-3">O Diário</span>
+          <div
+            className="
+            text-4xl 
+            shadow-text-logo 
+            -mt-3 inline-flex 
+            "
+          >
+            <span className="mr-2">O</span>
+            <span>Diário</span>
+          </div>
         </div>
       </LogoLink>
     </div>

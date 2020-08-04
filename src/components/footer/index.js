@@ -5,20 +5,30 @@ import { Container, ImageDivBackground64 } from '../misc.js'
 export default () => (
   <>
     <Container
-      className="p-0 m-0 text-white"
+      className="p-0 m-0 text-white mt-5"
       style={{ backgroundColor: '#111' }}
     >
       <div className="flex flex-row">
         <div className="w-1/2">
-          <a href="https://odiario.net/" target="_blanck">
-            <ImageDivBackground64 imageSrc={Logorodape}></ImageDivBackground64>
+          <a
+            href="https://odiario.net/"
+            target="_blanck"
+            rel="noopener noreferrer"
+          >
+            <ImageDivBackground64
+              className="h-24"
+              imageSrc={Logorodape}
+            ></ImageDivBackground64>
           </a>
         </div>
 
         <div className="w-1/2 p-12">
           Email:
           <p className="text-2xl text-diariolaranja">
-            <a href="mailto:contato@agenciaodiario.net">
+            <a
+              href="mailto:contato@agenciaodiario.net"
+              rel="noopener noreferrer"
+            >
               contato@agenciaodiario.net
             </a>
           </p>

@@ -3,24 +3,20 @@ import { motion } from 'framer-motion'
 import tw from 'twin.macro'
 import styled from 'styled-components'
 
-const CardContainer = tw.div`w-full`
+const CardContainer = tw.div`w-full ml-2 mr-2 mb-2 `
 const Card = tw(motion.a)`bg-transparent`
 
 export const CardImageContainer = styled.div((props) => [
   `background-image: url("${props.imageSrc}");`,
-  tw`h-64 lg:h-128 bg-center bg-cover relative`,
-])
-export const ImageDivBackground64 = styled.div((props) => [
-  `background-image: url("${props.imageSrc}");`,
-  tw`h-64 lg:h-128 mt-5 mx-2 bg-contain bg-center bg-no-repeat transition duration-700 `,
+  tw`h-64 bg-center bg-cover relative`,
 ])
 
 const CardHoverOverlay = styled(motion.div)`
   background-color: rgba(0, 0, 0, 0.7);
   ${tw`absolute inset-0 flex justify-center items-center`}
 `
-const CardContent = tw.p``
-const CardTitle = tw.h5`text-3xl uppercase text-diariolaranja font-bold
+const CardContent = tw.div``
+const CardTitle = tw.div`text-3xl uppercase text-diariolaranja font-bold
 `
 
 const CardText = tw.div`p-4 text-white`
@@ -37,7 +33,7 @@ hover:bg-blue-500 uppercase
 transform hover:-translate-y-1 hover:scale-110`
 
 export default ({ index, imageSrc, title, content, url }) => {
-  console.log(imageSrc)
+  // console.log(imageSrc)
 
   return (
     <CardContainer key={index}>

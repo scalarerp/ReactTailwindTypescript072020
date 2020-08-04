@@ -32,7 +32,7 @@
   "scripts": {
     "build:css": "postcss src/assets/css/main.css -o src/assets/css/styles.css",
     "start": "yarn build:css && react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false yarn build:css && react-scripts build",
+    "build": "yarn build:css && react-scripts build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "eslintConfig": {

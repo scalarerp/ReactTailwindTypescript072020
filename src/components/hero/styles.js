@@ -12,8 +12,8 @@ export const Container = styled.div`
 `
 
 export const HeroContainer = tw.div`
-relative px-4  z-5 pb-40
-sm:px-8 max-w-screen-xl mx-auto`
+relative px-4  z-5 pb-20 w-full
+sm:px-8  mx-auto`
 
 export const TwoColumn = tw.div`
 flex justify-between items-center 

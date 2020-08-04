@@ -22,15 +22,26 @@ const Hero = () => {
       {/* <VideoBg /> */}
       <HeroContainer>
         <div className="flex flex-col z-6 pt-40 font-sunn text-white">
-          <p className="text-5xl ml-3 sm:ml-24 ">Gerenciamento de</p>
-          <p className="text-8xl ml-3 sm:ml-24 -mt-12">Redes Sociais</p>
+          <div className="inline-flex text-4rem ml-3 sm:ml-24 sm:text-5rem">
+            <span>Gerenciamento</span>
+            <span className="ml-3">de</span>
+          </div>
+          <div className="inline-flex text-7rem -mt-3 ml-3 sm:ml-24 sm:text-9rem ">
+            <span>Redes</span>
+            <span className="ml-3">Sociais</span>
+          </div>
 
-          <div className="text-5xl font-panton font-light  mt-16  uppercase ml-3 sm:ml-24">
+          <div
+            className="text-2rem sm:text-3rem 
+          font-panton font-light  
+          mt-16  uppercase 
+          ml-3 sm:ml-24"
+          >
             <p className="-mt-5">Você Mais</p>
             <p className="-mt-2">Próximo do</p>
-            <p className="-mt-2">
-              seu cliente
-              <FiPlayCircle className="w-24 h-24 ml-64  " />
+            <p className="inline-flex -mt-2">
+              <span>seu cliente</span>
+              <FiPlayCircle className="w-24 h-24 ml-4" />
             </p>
           </div>
         </div>
