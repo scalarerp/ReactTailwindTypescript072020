@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import styled from 'styled-components'
 // import { motion } from 'framer-motion'
-import Azul from '../../assets/images/11.png'
+import Azul from '../../assets/images/webp/11.webp'
 
 export const Container = styled.div`
   ${tw`relative bg-center bg-cover -z-2`}

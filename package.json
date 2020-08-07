@@ -26,11 +26,12 @@
     "prettier": "^2.0.5",
     "react-scripts": "3.4.1",
     "sass": "^1.26.10",
-    "tailwindcss": "^1.5.1",
+    "tailwindcss": "latest",
     "twin.macro": "^1.5.0"
   },
   "scripts": {
-    "build:css": "postcss src/assets/css/main.css -o src/assets/css/styles.css",
+    "build:css": "tailwindcss build ./src/assets/css/main.css -o ./src/assets/css/styles.css",
+    "buildpostcss:css": "postcss src/assets/css/main.css -o src/assets/css/styles.css",
     "start": "yarn build:css && react-scripts start",
     "build": "yarn build:css && react-scripts build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""

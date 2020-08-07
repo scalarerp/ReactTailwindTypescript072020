@@ -1,10 +1,10 @@
 import React from 'react'
 import CardImageAndOverlayText from '../cards/cardImageAndOverlayText'
 import { RiWhatsappLine } from 'react-icons/ri'
-import p_limpatubo from '../../assets/images/p_limpatubo.jpeg'
-import p_dhein from '../../assets/images/p_dhein.jpeg'
-import p_autosul from '../../assets/images/p_autosul.jpeg'
-import p_massoterapia from '../../assets/images/p_massoterapia.jpeg'
+import p_limpatubo from '../../assets/images/webp/p_limpatubo.webp'
+import p_dhein from '../../assets/images/webp/p_dhein.webp'
+import p_autosul from '../../assets/images/webp/p_autosul.webp'
+import p_massoterapia from '../../assets/images/webp/p_massoterapia.webp'
 
 import { Container } from '../misc.js'
 

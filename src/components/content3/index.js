@@ -9,9 +9,9 @@ import {
   Variants,
 } from '../misc.js'
 
-import megafone from '../../assets/images/15.png'
-import diario from '../../assets/images/9.png'
-import microfone from '../../assets/images/10.png'
+import megafone from '../../assets/images/webp/15.webp'
+import diario from '../../assets/images/webp/9.webp'
+import microfone from '../../assets/images/webp/10.webp'
 
 const Content3 = () => {
   const [isOpen, setIsOpen] = useState(false)

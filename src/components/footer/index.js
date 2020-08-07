@@ -1,5 +1,5 @@
 import React from 'react'
-import Logorodape from '../../assets/images/logorodape.png'
+import Logorodape from '../../assets/images/webp/logorodape.webp'
 import { ImageDivBackground64 } from '../misc.js'
 
 export default () => (

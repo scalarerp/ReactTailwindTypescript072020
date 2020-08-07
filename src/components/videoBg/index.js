@@ -2,7 +2,7 @@ import React from 'react'
 import { VideoBgWrapper } from './styles.js'
 
 import HeroVideo from '../../assets/video.mp4'
-import HeroBackground from '../../assets/images/11.png'
+import HeroBackground from '../../assets/images/webp/11.webp'
 
 const BackgroundVideo = () => {
   return (
