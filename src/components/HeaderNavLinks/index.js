@@ -3,11 +3,13 @@ import tw from 'twin.macro'
 import styled from 'styled-components'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { RiWhatsappLine } from 'react-icons/ri'
+import { Link } from 'react-scroll'
 
 import { ReactComponent as Logo } from '../../assets/images/logo.svg'
 
 const NavLinks = tw.div``
-const NavLink = tw.a`
+
+const NavLink = tw(Link)`
   text-xl uppercase my-2 lg:mx-6 lg:my-0 h-10
   font-semibold tracking-wide 
   transition duration-700
@@ -39,10 +41,42 @@ text-center
 
 const LinksNav = () => (
   <>
-    <NavLink href="#inicio">Início</NavLink>
-    <NavLink href="#servicos">Serviços</NavLink>
-    <NavLink href="#portfolio">Portfólio</NavLink>
-    <NavLink href="#contato">Contato</NavLink>
+    <NavLink
+      to="inicio"
+      href="#inicio"
+      spy={true}
+      smooth={true}
+      duration={1000}
+    >
+      Início
+    </NavLink>
+    <NavLink
+      to="servicos"
+      href="#servicos"
+      spy={true}
+      smooth={true}
+      duration={1000}
+    >
+      Serviços
+    </NavLink>
+    <NavLink
+      to="portfolio"
+      href="#portfolio"
+      spy={true}
+      smooth={true}
+      duration={1000}
+    >
+      Portfólio
+    </NavLink>
+    <NavLink
+      to="contato"
+      href="#contato"
+      spy={true}
+      smooth={true}
+      duration={1000}
+    >
+      Contato
+    </NavLink>
 
     <WhatsAppLink
       href="https://api.whatsapp.com/send?phone=555199961716"
@@ -76,7 +110,7 @@ export const LogoLinks = (props) => {
       : 'w-20 duration-700 '
   return (
     <div>
-      <LogoLink href="/">
+      <LogoLink to="inicio" href="/">
         <Logo className={LogoH} />
         <div className="flex flex-col ">
           <span className="shadow-text-logo text-1rem ">Agência</span>

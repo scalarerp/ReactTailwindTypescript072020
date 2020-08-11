@@ -9,15 +9,15 @@ import {
   Variants,
 } from '../misc.js'
 
-import megafone from '../../assets/images/webp/15.webp'
-import diario from '../../assets/images/webp/9.webp'
-import microfone from '../../assets/images/webp/10.webp'
+import megafone from '../../assets/images/otimiz/15.png'
+import diario from '../../assets/images/otimiz/9.png'
+import microfone from '../../assets/images/otimiz/10.png'
 
 const Content3 = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <Container>
-      <div className="flex p-2 bg-gray-300">
+      <div className="flex p-2 py-4  mt-10 bg-gray-300">
         <div className="invisible sm:visible sm:flex-1">
           <ImageDivBackground64 imageSrc={diario} />
         </div>

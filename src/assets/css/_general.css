@@ -6,6 +6,24 @@ input:focus {
   outline: none;
 }
 
+button:focus {
+  outline: none;
+}
+
+.iconW12RoudedFull {
+  @apply .w-12 .h-12 .p-1 .text-white .rounded-full;
+}
+
+.menu-link {
+  @apply text-xl uppercase my-2 lg:mx-6 lg:my-0 h-10
+  font-semibold tracking-wide 
+  transition duration-700
+  pb-1 border-b-2 border-transparent
+  text-white
+  hover:border-yellow-500
+  hocus:text-yellow-500;
+}
+
 ::-webkit-scrollbar {
   background-color: #d3d3d3;
   /* border: 2px solid #1e90f5; */
@@ -36,8 +54,4 @@ input:focus {
 
 .shadow-text-logo {
   text-shadow: #0b385f 1px 1px 0;
-}
-
-.iconW12RoudedFull {
-  @apply .w-12 .h-12 .p-1 .text-white .rounded-full;
 }

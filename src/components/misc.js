@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components'
 import { css } from 'styled-components/macro' //eslint-disable-line
 
-export const Container = tw.div`relative`
+export const Container = tw.div`relative lg:max-w-screen-xl lg:mx-auto`
 export const ContentWithPaddingXl = tw.div`max-w-screen-xl mx-auto pt-10 pb-6 `
 
 export const ContentCard = tw.div`flex flex-col h-full bg-gray-200`

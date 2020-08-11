@@ -1,10 +1,10 @@
 import React from 'react'
 import CardImageAndOverlayText from '../cards/cardImageAndOverlayText'
 import { RiWhatsappLine } from 'react-icons/ri'
-import p_limpatubo from '../../assets/images/webp/p_limpatubo.webp'
-import p_dhein from '../../assets/images/webp/p_dhein.webp'
-import p_autosul from '../../assets/images/webp/p_autosul.webp'
-import p_massoterapia from '../../assets/images/webp/p_massoterapia.webp'
+import p_limpatubo from '../../assets/images/otimiz/p_limpatubo.jpg'
+import p_dhein from '../../assets/images/otimiz/p_dhein.jpg'
+import p_autosul from '../../assets/images/otimiz/p_autosul.jpg'
+import p_massoterapia from '../../assets/images/otimiz/p_massoterapia.jpg'
 
 import { Container } from '../misc.js'
 
@@ -42,7 +42,7 @@ export default () => {
 
   return (
     <>
-      <Container id="portfolio" className="p-0 m-0 mt-10">
+      <Container id="portfolio" className="p-0 m-0 mt-10 w-full">
         <div className="flex flex-col justify-center text-center divide-y divide-gray-400 ">
           <div className="text-1.5rem lg:text-2.5rem font-panton font-bold uppercase leading-none tracking-tight text-gray-800 ">
             Portfólio
@@ -65,10 +65,13 @@ export default () => {
             </div>
           ))}
         </div>
-
+      </Container>
+      <Container>
         <div
           id="contato"
-          className=" mt-10 flex flex-col justify-center text-center divide-y divide-gray-400 "
+          className=" mt-10 flex flex-col 
+          justify-center text-center 
+          divide-y divide-gray-400 "
         >
           <div className="text-1.5rem lg:text-2.5rem font-panton font-bold uppercase leading-none tracking-tight text-gray-800 ">
             Vamos Conversar?
@@ -77,7 +80,7 @@ export default () => {
           <div
             className="
           shadow-xl text-white bg-primary-400 mt-5 
-          sm:rounded-lg sm:p-5 sm:mx-32 sm:mt-10 "
+          sm:rounded-lg sm:p-5 mx-3 sm:mt-10 "
           >
             <div className="text-2rem sm:text-2.5rem font-sunn">
               Envie uma mensagem pelo WhatsApp:
@@ -90,12 +93,6 @@ export default () => {
             </div>
           </div>
         </div>
-
-        {/* <div className=" mt-16 flex flex-col justify-center text-center divide-y divide-gray-400 ">
-          <p className="text-lg font-bold text-gray-700 dark:text-gray-400">
-            <ImageDivBackground64 imageSrc={rodape} />
-          </p>
-        </div> */}
       </Container>
     </>
   )

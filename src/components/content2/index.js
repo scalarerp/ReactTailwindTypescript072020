@@ -1,17 +1,17 @@
 import React from 'react'
 import Card1 from '../cards/card1'
 
-import c1a from '../../assets/images/webp/1.webp'
-import c1b from '../../assets/images/webp/5.webp'
+import c1a from '../../assets/images/otimiz/1.png'
+import c1b from '../../assets/images/otimiz/5.png'
 
-import c2a from '../../assets/images/webp/2.webp'
-import c2b from '../../assets/images/webp/6.webp'
+import c2a from '../../assets/images/otimiz/2.png'
+import c2b from '../../assets/images/otimiz/6.png'
 
-import c3a from '../../assets/images/webp/3.webp'
-import c3b from '../../assets/images/webp/7.webp'
+import c3a from '../../assets/images/otimiz/3.png'
+import c3b from '../../assets/images/otimiz/7.png'
 
-import c4a from '../../assets/images/webp/4.webp'
-import c4b from '../../assets/images/webp/8.webp'
+import c4a from '../../assets/images/otimiz/4.png'
+import c4b from '../../assets/images/otimiz/8.png'
 
 import { Container } from '../misc.js'
 
@@ -59,7 +59,7 @@ export default () => {
 
   return (
     <>
-      <Container id="servicos" className="bg-gray-200 p-2 sm:p-6 ">
+      <Container id="servicos" className=" bg-gray-200 p-2 sm:p-6 ">
         <div className="flex flex-wrap">
           {_Cards1.map((card, index) => (
             <div className=" sm:w-1/2 p-3 " key={index}>
